@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+
+    <test name="Regression1">
+        <classes>
+
+            <class name="createorganization_1"/>
+            <class name="get_orgformember2"/>
+            <class name="create_board_inOrganization_3"/>
+            <class name="get_boards_inorg_4"/>
+            <class name="create_new_list_5"/>
+            <class name="Get_lists_in_board_6"/>
+            <class name="Archive_list_7"/>
+            <class name="Delete_board_8"/>
+           <class name="Delete_organization_9"/>
+
+
+
+        </classes>
+    </test>
+</suite>
